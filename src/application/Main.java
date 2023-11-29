@@ -12,7 +12,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			
-			Parent parent = FXMLLoader.load(getClass().getResource("/views/Cadastro.fxml"));
+			Parent parent = FXMLLoader.load(getClass().getResource("/views/Login.fxml"));
 			
 			Scene scene = new Scene(parent);
 			

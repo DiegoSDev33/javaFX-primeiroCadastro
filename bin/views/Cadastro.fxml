@@ -51,7 +51,7 @@
             <Font size="18.0" />
          </font>
       </Text>
-      <Text fx:id="valorDoEmail" fill="#35fca5" layoutX="215.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="367.33333333333326">
+      <Text fx:id="valorDoEmail" fill="#35fca5" layoutX="177.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="367.33333333333326">
          <font>
             <Font size="20.0" />
          </font>
@@ -66,12 +66,13 @@
             <Font size="20.0" />
          </font>
       </Text>
-      <TableView fx:id="tabelaClientes" layoutX="517.0" layoutY="27.0" prefHeight="361.0" prefWidth="227.0">
+      <TableView fx:id="tabelaClientes" layoutX="517.0" layoutY="27.0" prefHeight="358.0" prefWidth="227.0">
         <columns>
           <TableColumn fx:id="colunaNome" prefWidth="75.0" text="Nome" />
           <TableColumn fx:id="colunaEmail" prefWidth="75.0" text="Email" />
             <TableColumn fx:id="colunaTelefone" prefWidth="75.0" text="Telefone" />
         </columns>
       </TableView>
+      <Button layoutX="74.0" layoutY="135.0" mnemonicParsing="false" onAction="#nextScreen" text="Logout" />
    </children>
 </AnchorPane>

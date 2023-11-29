@@ -73,5 +73,6 @@
             <TableColumn fx:id="colunaTelefone" prefWidth="75.0" text="Telefone" />
         </columns>
       </TableView>
+      <Button layoutX="74.0" layoutY="135.0" mnemonicParsing="false" onAction="#nextScreen" text="Logout" />
    </children>
 </AnchorPane>
